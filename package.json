@@ -1,0 +1,9 @@
+{
+  "name": "feminine-fat-loss-coaching",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "python3 -m http.server 4173"
+  }
+}
