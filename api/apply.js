@@ -75,12 +75,11 @@ function formatApplicantConfirmationHtml(application) {
         <div style="background:#ffffff;border:1px solid #eadbd5;border-radius:10px;padding:24px;">
           <p style="margin:0 0 16px;font-size:16px;line-height:1.6;">Hi ${firstName},</p>
           <p style="margin:0 0 16px;font-size:16px;line-height:1.6;">
-            Thank you for submitting your Feminine Fat Loss coaching call application. I received your
-            answers and will review them carefully.
+            Thank you for submitting your coaching call application. I received your answers and
+            will review them carefully.
           </p>
           <p style="margin:0 0 16px;font-size:16px;line-height:1.6;">
-            If you were sent to the scheduling page after applying, please choose two times that
-            work for you. I will follow up with next steps from there.
+            Once I confirm your call time, we will talk from there.
           </p>
           <p style="margin:0;font-size:16px;line-height:1.6;">
             Talk soon,<br />
@@ -167,7 +166,7 @@ module.exports = async function handler(request, response) {
       from: fromEmail,
       to: [application.email],
       reply_to: toEmail,
-      subject: "Your Feminine Fat Loss application was received",
+      subject: "Your coaching call application was received",
       html: formatApplicantConfirmationHtml(application),
     }),
   });
