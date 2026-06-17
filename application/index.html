@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Feminine Fat Loss Coaching Application</title>
+    <meta
+      name="description"
+      content="Apply for a Feminine Fat Loss coaching call with Crista Braun."
+    />
+    <base href="/" />
+    <link rel="preconnect" href="https://cal.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero__media" aria-label="Coaching introduction video">
+          <video class="intro-video" autoplay muted loop playsinline webkit-playsinline preload="auto">
+            <source src="assets/feminine-fat-loss-vertical.mp4?v=20260616-live" type="video/mp4" />
+            Your browser does not support embedded video.
+          </video>
+          <button class="video-play-button" type="button" aria-label="Play video from the beginning">
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="hero__content">
+          <p class="eyebrow">Coaching call application</p>
+          <h1 id="page-title">Feminine Fat Loss</h1>
+          <p class="lead">
+            If you wake up ready to start over, then end the night wondering what happened, this
+            call is for you. If you feel like you're doing a lot but still don't feel at home in
+            your body, this is for you too. If you've been forever trying to make peace with your
+            body and finally lose the weight without losing your mind — let's chat.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#application">Apply now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="details" aria-label="Coaching details">
+        <div>
+          <h2>You are not doing it wrong.</h2>
+          <p>
+            I know that place well because I lived there for a long time. Even as a trainer and
+            fitness professional who knew exactly what to do... and still failing. I was working out
+            constantly, restricting foods, running, doing all the things, and still feeling stuck.
+            Things changed when I understood that much of what I had been taught was never meant for
+            me. I started listening to my body, letting go of shame, and finding what actually felt
+            good for me. Less punishment, more intention. And 15 pounds came off and stayed off.
+          </p>
+          <p>
+            It doesn't have to be so hard. It can actually be enjoyable. If you can relate, let's
+            chat. Fill out the 3-minute application below — I can't wait to speak with you!
+          </p>
+        </div>
+      </section>
+
+      <section class="application-shell" id="application">
+        <div class="section-heading">
+          <p class="eyebrow">Coaching call application</p>
+          <h2>Apply for a coaching call with Crista</h2>
+          <p>
+            After you submit the application, you’ll be sent to a scheduling page where you can pick
+            two times that work for you.
+          </p>
+        </div>
+
+        <form class="application-form" id="coachingApplication">
+          <input type="hidden" name="program" value="Feminine Fat Loss Coaching Call Application" />
+
+          <div class="quiz-progress" aria-label="Application progress">
+            <div class="quiz-progress__track" aria-hidden="true">
+              <span class="quiz-progress__bar"></span>
+            </div>
+          </div>
+
+          <div class="quiz-step is-active" data-step>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Let’s start easy.</p>
+              <h3>What’s your first name?</h3>
+            </div>
+            <label class="sr-only" for="firstName">First name</label>
+            <input id="firstName" name="first_name" autocomplete="given-name" required />
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Nice.</p>
+              <h3>And your last name?</h3>
+            </div>
+            <label class="sr-only" for="lastName">Last name</label>
+            <input id="lastName" name="last_name" autocomplete="family-name" required />
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Where should I send the confirmation?</p>
+              <h3>What’s your email?</h3>
+            </div>
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Last contact detail.</p>
+              <h3>What’s your phone number?</h3>
+              <p>I’ll only use this for coaching follow-up.</p>
+            </div>
+            <label class="sr-only" for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Big picture.</p>
+              <h3>What’s your main goal right now?</h3>
+              <p>
+                Fat loss, energy, confidence, feeling better in your body -- be as specific as you
+                can.
+              </p>
+            </div>
+            <label class="sr-only" for="mainGoal">Main goal</label>
+            <textarea id="mainGoal" name="main_goal" rows="5" required></textarea>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Your history helps.</p>
+              <h3>What have you tried before?</h3>
+              <p>Diet programs, workout plans, apps, coaches -- anything counts.</p>
+            </div>
+            <label class="sr-only" for="previousAttempts">Previous attempts</label>
+            <textarea id="previousAttempts" name="previous_attempts" rows="5" required></textarea>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Even small wins matter.</p>
+              <h3>What has worked for you before?</h3>
+              <p>No matter how small -- what felt good or showed results at some point?</p>
+            </div>
+            <label class="sr-only" for="whatWorked">What worked</label>
+            <textarea id="whatWorked" name="what_worked" rows="5" required></textarea>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Be honest here.</p>
+              <h3>What hasn’t worked?</h3>
+              <p>And why do you think it didn’t stick? There are no wrong answers.</p>
+            </div>
+            <label class="sr-only" for="whatHasntWorked">What has not worked</label>
+            <textarea id="whatHasntWorked" name="what_hasnt_worked" rows="5" required></textarea>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Real life answer.</p>
+              <h3>How much time can you realistically give this each week?</h3>
+            </div>
+            <fieldset class="choice-grid">
+              <legend class="sr-only">Weekly time</legend>
+              <label class="choice-card">
+                <input type="radio" name="weekly_time" value="1-2 hours per week" required />
+                <span>1-2 hours</span>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="weekly_time" value="3-4 hours per week" />
+                <span>3-4 hours</span>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="weekly_time" value="5+ hours per week" />
+                <span>5+ hours</span>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="weekly_time" value="I am not sure yet" />
+                <span>I’m not sure yet</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Training check-in.</p>
+              <h3>What does your training look like right now?</h3>
+              <p>Workouts, walking, strength training, cardio, classes -- whatever is relevant.</p>
+            </div>
+            <label class="sr-only" for="trainingRoutine">Training routine</label>
+            <textarea id="trainingRoutine" name="training_routine" rows="5" required></textarea>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Quick gut check.</p>
+              <h3>How ready are you to make a change right now?</h3>
+              <p>1 = just curious. 10 = I’m ready to go.</p>
+            </div>
+            <fieldset class="scale-grid">
+              <legend class="sr-only">Readiness level</legend>
+              <label><input type="radio" name="importance_level" value="1" required /><span>1</span></label>
+              <label><input type="radio" name="importance_level" value="2" /><span>2</span></label>
+              <label><input type="radio" name="importance_level" value="3" /><span>3</span></label>
+              <label><input type="radio" name="importance_level" value="4" /><span>4</span></label>
+              <label><input type="radio" name="importance_level" value="5" /><span>5</span></label>
+              <label><input type="radio" name="importance_level" value="6" /><span>6</span></label>
+              <label><input type="radio" name="importance_level" value="7" /><span>7</span></label>
+              <label><input type="radio" name="importance_level" value="8" /><span>8</span></label>
+              <label><input type="radio" name="importance_level" value="9" /><span>9</span></label>
+              <label><input type="radio" name="importance_level" value="10" /><span>10</span></label>
+            </fieldset>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">Last one.</p>
+              <h3>Are you in a position to invest in yourself financially right now?</h3>
+              <p>This program is a serious commitment, so I want to make sure the timing is right.</p>
+            </div>
+            <fieldset class="choice-grid">
+              <legend class="sr-only">Investment readiness</legend>
+              <label class="choice-card">
+                <input type="radio" name="investment_readiness" value="Yes, I am ready" required />
+                <span>Yes, I’m ready</span>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="investment_readiness" value="I have questions first" />
+                <span>I have questions first</span>
+              </label>
+              <label class="choice-card">
+                <input type="radio" name="investment_readiness" value="Not yet" />
+                <span>Not yet</span>
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="quiz-step" data-step hidden>
+            <div class="quiz-step__prompt">
+              <p class="quiz-kicker">You’re at the finish line.</p>
+              <h3>Submit your application?</h3>
+              <p>
+                After you submit, I’ll receive your answers and you’ll be sent to a scheduling page
+                to choose two times that work for you.
+              </p>
+            </div>
+            <div class="review-note">
+              <p>
+                You’ll also get an email confirming your application was received.
+              </p>
+            </div>
+          </div>
+
+          <div class="quiz-actions">
+            <button class="button button--quiet" type="button" data-quiz-back>Back</button>
+            <button class="button button--primary" type="button" data-quiz-next>Next</button>
+            <button class="button button--primary" type="submit" data-quiz-submit hidden>
+              Submit application
+            </button>
+          </div>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
