@@ -1,0 +1,29 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/freecall",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/freecall/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/application",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/application/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/free-call",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/free-call/",
+      "destination": "/index.html"
+    }
+  ]
+}
