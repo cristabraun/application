@@ -3,27 +3,27 @@
   "rewrites": [
     {
       "source": "/freecall",
-      "destination": "/index.html"
+      "destination": "/freecall/index.html"
     },
     {
       "source": "/freecall/",
-      "destination": "/index.html"
+      "destination": "/freecall/index.html"
     },
     {
       "source": "/application",
-      "destination": "/index.html"
+      "destination": "/application/index.html"
     },
     {
       "source": "/application/",
-      "destination": "/index.html"
+      "destination": "/application/index.html"
     },
     {
       "source": "/free-call",
-      "destination": "/index.html"
+      "destination": "/freecall/index.html"
     },
     {
       "source": "/free-call/",
-      "destination": "/index.html"
+      "destination": "/freecall/index.html"
     }
   ]
 }
